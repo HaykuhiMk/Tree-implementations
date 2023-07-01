@@ -4,7 +4,7 @@
 enum Color 
 {
     RED,
-    BLACK,
+    BLACK
 };
 
 class RBTree
