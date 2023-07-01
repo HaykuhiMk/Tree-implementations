@@ -6,5 +6,4 @@ can have an arbitrary number of child nodes. This implementation provides basic 
 The General Tree implementation consists of the following components:
 
 node.h: Defines the Node class, representing a node in the tree. Each node holds a value of type Func, and maintains a list of child nodes.
-
 general_tree.h: Defines the GeneralTree class, which encapsulates the tree structure. It provides methods for adding and deleting child nodes, as well as executing operations on the tree.
