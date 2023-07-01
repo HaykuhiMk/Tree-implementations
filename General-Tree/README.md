@@ -2,8 +2,13 @@
 This repository contains an implementation of a General Tree data structure in C++. A General Tree is a hierarchical data structure where each node 
 can have an arbitrary number of child nodes. This implementation provides basic functionalities for creating, modifying, and executing operations on the tree.
 
-## Introduction
-The General Tree implementation consists of the following components:
+## Features
+Dynamic Structure: The General Tree implementation allows nodes to have an arbitrary number of child nodes, making it suitable for representing hierarchical relationships with varying degrees of branching.
 
-node.h: Defines the Node class, representing a node in the tree. Each node holds a value of type Func, and maintains a list of child nodes.
-general_tree.h: Defines the GeneralTree class, which encapsulates the tree structure. It provides methods for adding and deleting child nodes, as well as executing operations on the tree.
+Child Manipulation: You can easily add and delete child nodes to modify the structure of the tree.
+
+Execution of Operations: The tree supports executing operations on nodes, providing flexibility for performing custom actions on specific parts of the tree.
+
+Flexibility: The implementation is generic, allowing you to use different data types for the node values by templating the Node class.
+
+Ease of Use: The provided methods and functions are designed to be intuitive and easy to use, enabling straightforward creation and manipulation of the tree.
